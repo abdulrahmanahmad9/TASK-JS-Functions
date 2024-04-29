@@ -8,7 +8,10 @@
  */
 function greet(name) {
   // Your code here
+  console.log(`hello ${name}`)
 }
+// let name = prompt("What is your age?");
+greet ("abdul")
 
 /**
  * isOdd(n):
@@ -21,7 +24,9 @@ function greet(name) {
  */
 function isOdd(n) {
   // Your code here
+  return n % 2 == 1;
 }
+isOdd (3)
 
 /**
  * oddsSmallerThan(n):
